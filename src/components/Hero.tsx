@@ -1,5 +1,6 @@
 import React from 'react';
 import { Phone, ShieldCheck, ArrowRight, CheckCircle2, Umbrella, AlertTriangle, Award } from 'lucide-react';
+import { APP_IMAGES } from '../assets/images/index.ts';
 
 interface HeroProps {
   onOpenEstimate: () => void;
@@ -12,7 +13,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEstimate, onSelectServiceType 
       {/* Background Image with Crisp Scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_roofing_tx_1791555795102.jpg"
+          src={APP_IMAGES.hero}
           alt="North Texas Home with pristine architectural roof by First United Roofing"
           className="w-full h-full object-cover object-center"
           referrerPolicy="no-referrer"

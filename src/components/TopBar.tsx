@@ -11,40 +11,6 @@ export const TopBar: React.FC<TopBarProps> = ({ onOpenEstimate }) => {
 
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-2xs">
-      {/* Slim, Neat Top Notification Strip */}
-      <div className="bg-slate-900 text-slate-300 text-[11px] py-1 px-4 border-b border-slate-800">
-        <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <span className="text-red-400 font-bold uppercase tracking-wider text-[10px]">
-              24/7 DFW:
-            </span>
-            <a
-              href="tel:8177698660"
-              className="font-bold text-white hover:text-red-300 transition-colors tabular-nums"
-            >
-              817-769-8660
-            </a>
-            <span className="hidden sm:inline text-slate-600">|</span>
-            <span className="hidden sm:inline text-slate-400">
-              Dallas-Fort Worth Metro
-            </span>
-          </div>
-
-          <div className="hidden md:flex items-center gap-3 text-[11px] text-slate-400">
-            <span className="flex items-center gap-1 text-slate-300">
-              <Award className="w-3 h-3 text-amber-400" />
-              GAF Master Elite®
-            </span>
-            <span className="text-slate-600">·</span>
-            <span className="flex items-center gap-1 text-slate-300">
-              <ShieldCheck className="w-3 h-3 text-blue-400" />
-              FORTIFIED™ Certified
-            </span>
-            <span className="text-slate-600">·</span>
-            <span className="text-emerald-400 font-medium">BBB A+ Accredited</span>
-          </div>
-        </div>
-      </div>
 
       {/* Main Navigation - Neat, Compact 56px Bar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between gap-6">

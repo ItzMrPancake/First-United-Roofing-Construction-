@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Camera, MapPin, Calendar, ArrowRight } from 'lucide-react';
+import { APP_IMAGES } from '../assets/images/index.ts';
 
 interface ProjectsGalleryProps {
   onOpenEstimate: () => void;
@@ -16,7 +17,7 @@ export const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onOpenEstimate
       zip: '76006',
       date: 'Fall 2026',
       category: 'metal',
-      image: '/src/assets/images/project_metal_shake_1791555825194.jpg',
+      image: APP_IMAGES.metalShake,
       type: 'Decra Metal Roof, Stone-Coated Steel',
       products: 'Decra Shake XD, Foam Attic Insulation, Custom Chimney Chase, Exterior Painting',
       badge: '58+ CompanyCam Photos',
@@ -29,7 +30,7 @@ export const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onOpenEstimate
       zip: '75201',
       date: 'Summer 2026',
       category: 'commercial',
-      image: '/src/assets/images/commercial_roofing_tpo_1791555815392.jpg',
+      image: APP_IMAGES.commercial,
       type: 'Commercial Low-Slope, TPO Membrane',
       products: '60-mil White TPO Membrane, ISO Board, Parapet Flashing, HVAC Curb Seals',
       badge: '20-Year Warranty',
@@ -42,7 +43,7 @@ export const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onOpenEstimate
       zip: '76086',
       date: 'Spring 2026',
       category: 'fortified',
-      image: '/src/assets/images/fortified_roof_system_1791555805545.jpg',
+      image: APP_IMAGES.fortified,
       type: 'FORTIFIED Roof System',
       products: 'GAF Master Elite Fortified System, Ring-Shank Nails, Sealed Decking, Class 4 Shingles',
       badge: 'Habitat Partner Project',
@@ -55,7 +56,7 @@ export const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ onOpenEstimate
       zip: '75054',
       date: 'Spring 2026',
       category: 'storm',
-      image: '/src/assets/images/inspection_drone_storm_1791555834615.jpg',
+      image: APP_IMAGES.inspection,
       type: 'Severe Storm Damage Restorations',
       products: 'Decra Metal Shingle XD, Drone Damage Valuation, Seamless Gutters',
       badge: '167+ Photos Logged',

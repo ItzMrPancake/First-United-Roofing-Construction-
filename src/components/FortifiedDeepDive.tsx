@@ -1,5 +1,6 @@
 import React from 'react';
 import { ShieldCheck, Wind, Droplets, Hammer, CheckCircle2, ArrowRight, DollarSign } from 'lucide-react';
+import { APP_IMAGES } from '../assets/images/index.ts';
 
 interface FortifiedDeepDiveProps {
   onOpenEstimate: () => void;
@@ -52,7 +53,7 @@ export const FortifiedDeepDive: React.FC<FortifiedDeepDiveProps> = ({ onOpenEsti
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center mb-10">
           <div className="lg:col-span-7 rounded-xl overflow-hidden border border-slate-800 shadow-xl relative group">
             <img
-              src="/src/assets/images/fortified_roof_system_1791555805545.jpg"
+              src={APP_IMAGES.fortified}
               alt="IBHS Fortified Roof Standard architectural engineering cutaway"
               className="w-full h-auto max-h-[380px] object-cover object-top"
               referrerPolicy="no-referrer"
